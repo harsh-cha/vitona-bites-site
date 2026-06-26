@@ -791,7 +791,7 @@ function renderStep1(){
   document.getElementById('modalTitle').textContent='Your Details';
   const o = order;
   document.getElementById('modalBody').innerHTML = `
-    <div class="field" id="f-name"><label>Full Name <span class="req">*</span></label><input type="text" id="in-name" value="${o.name||''}" placeholder="e.g. Aarav Mehta"><div class="field-error">Please enter your name.</div></div>
+    <div class="field" id="f-name"><label>Full Name <span class="req">*</span></label><input type="text" id="in-name" value="${escapeHTML(o.name)}" placeholder="e.g. Aarav Mehta"><div class="field-error">Please enter your name.</div></div>
     <div class="field-row">
       <div class="field" id="f-phone"><label>Phone <span class="req">*</span></label><input type="tel" id="in-phone" value="${o.phone||''}" placeholder="10-digit mobile" maxlength="10"><div class="field-error">Enter a valid 10-digit number.</div></div>
       <div class="field" id="f-pin"><label>Pin Code <span class="req">*</span></label><input type="tel" id="in-pin" value="${o.pin||''}" placeholder="e.g. 110001" maxlength="6"><div class="field-error">Enter a valid 6-digit pin.</div></div>
