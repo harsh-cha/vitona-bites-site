@@ -625,6 +625,11 @@ const SHEET_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwpY7wXqqKCKt
 // and are used only inside netlify/functions/create-order.js — never sent to the browser.
 const WHATSAPP_NUMBER   = "918796270050";  // your WhatsApp business number
 const INSTAGRAM_URL     = "https://instagram.com/vitone_bites";
+function escapeHTML(str){
+  const div = document.createElement('div');
+  div.textContent = str || '';
+  return div.innerHTML;
+}
 const COD_FEE = 30;
 const FREE_DELIVERY_MIN = 0;   // free delivery on every order
 const DELIVERY_FEE = 0;
