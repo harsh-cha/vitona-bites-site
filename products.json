@@ -1,0 +1,26 @@
+[
+  {
+    "id": "peanut", "benefit": "Energy", "name": "Peanut & Jaggery", "img": "peanut", "protein": "6g",
+    "ingredients": ["Roasted peanuts", "Jaggery", "Desi ghee"],
+    "benefits": ["Clean, lasting energy", "Heart-friendly good fats", "No refined sugar"],
+    "p500": 549, "p1kg": 899
+  },
+  {
+    "id": "moong", "benefit": "Recovery", "name": "Moong Dal", "img": "moong", "protein": "7g",
+    "ingredients": ["Roasted moong dal", "Desi ghee", "Jaggery", "Cashew", "Cardamom"],
+    "benefits": ["Easy to digest", "Post-workout recovery", "Sustained plant protein"],
+    "p500": 699, "p1kg": 999
+  },
+  {
+    "id": "dryfruit", "benefit": "Indulgence", "name": "Dry Fruit", "img": "dryfruit", "protein": "5g",
+    "ingredients": ["Almonds", "Cashews", "Pistachios", "Dates", "Seeds"],
+    "benefits": ["Flourless & wholesome", "Rich in good fats", "Naturally sweetened"],
+    "p500": 949, "p1kg": 1299
+  },
+  {
+    "id": "soya", "benefit": "Strength", "name": "Soya Chunk", "img": "soya", "protein": "10g",
+    "ingredients": ["Roasted soya", "Desi ghee", "Jaggery", "Almonds", "Milk powder"],
+    "benefits": ["Highest protein in the range", "Muscle building & repair", "Whole-food, no isolates"],
+    "p500": 699, "p1kg": 999
+  }
+]
