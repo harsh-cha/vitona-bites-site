@@ -911,7 +911,7 @@ function renderConfirm(){
     <div class="confirm">
       <div class="confirm-mark">✓</div>
       <h3>Your batch is reserved</h3>
-      <p>Thank you, ${o.name.split(' ')[0]}. We've received your order and will be in touch on ${o.phone} shortly.</p>
+     <p>Thank you, ${escapeHTML(o.name.split(' ')[0])}. We've received your order and will be in touch on ${escapeHTML(o.phone)} shortly.</p>
       <div class="oid">Order ${o.orderId}</div>
       <div class="confirm-detail">
         <div class="cd-row"><span>Items</span><span>${cartQty()} pc</span></div>
