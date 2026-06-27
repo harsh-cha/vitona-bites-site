@@ -3,7 +3,7 @@
     "id": "peanut", "benefit": "Energy", "name": "Peanut & Jaggery", "img": "peanut", "protein": "6g",
     "ingredients": ["Roasted peanuts", "Jaggery", "Desi ghee"],
     "benefits": ["Clean, lasting energy", "Heart-friendly good fats", "No refined sugar"],
-    "p500": 549, "p1kg": 899
+    "p500": 10, "p1kg": 899
   },
   {
     "id": "moong", "benefit": "Recovery", "name": "Moong Dal", "img": "moong", "protein": "7g",
